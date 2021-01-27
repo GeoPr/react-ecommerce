@@ -1,0 +1,21 @@
+.cart {
+  // .cart__body,
+  // .cart__products
+  &__body,
+  &__products {
+    display: grid;
+    row-gap: 30px;
+  }
+  // .cart__empty
+  &__empty {
+    text-align: center;
+    font-size: 4rem;
+    @media (max-width: 767.98px) {
+      font-size: 3rem;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 2rem;
+    }
+  }
+}
+.products-cart {}

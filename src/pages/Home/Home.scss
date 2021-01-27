@@ -1,0 +1,10 @@
+.home {
+  // .home__products
+  &__products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    justify-content: center;
+  }
+}
+.products-home {}
